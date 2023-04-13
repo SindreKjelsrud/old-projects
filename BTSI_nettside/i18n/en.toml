@@ -1,0 +1,40 @@
+[view]
+other = "View"
+[code]
+other = "Code"
+[viewAll]
+other = "View All"
+[name]
+other = "Name"
+[email]
+other = "Email"
+[subject]
+other = "Subject"
+[message]
+other = "Message"
+[send]
+other = "Send"
+[thanksForYourEmail]
+other = "Thanks for your email!"
+[minuteRead]
+one = "One minute read"
+other = "{{.Count}} minutes read"
+[latestPosts]
+other = "Latest Posts"
+[enableJavaScript]
+other = "Please enable JavaScript to view comments powered by"
+[404Message]
+other = "WHAT DID YOU DO?!"
+[copyright]
+other = "Copyright"
+[facebook]
+other = "Facebook"
+[instagram]
+other = "Instagram"
+
+[nyttLag]
+other = "Starte Nytt Lag?"
+[sjekkUt]
+other = "Trykk her for å finne ut mer om oss!"
+[developedBy]
+other = "© friByte 2023"
