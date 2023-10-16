@@ -1,0 +1,20 @@
+---
+- id: latestPosts
+  translation: "Siste Innlegg"
+
+- id: blogHeading
+  translation: "Innlegg"
+
+- id: pageNotFound
+  translation: "Beklager, denne siden finnes ikke."
+
+- id: visitHomePage
+  translation: "Besøk hjemmeside"
+
+- id: readingTime
+  translation:
+    one: "Ett min. lesetid"
+    other: "{{ .Count }} min. lesetid"
+
+- id: backToPosts
+  translation: "Tilbake til innleggene"

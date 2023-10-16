@@ -1,0 +1,48 @@
+baseURL             = 'https://pblog.kjelsrud.dev/'
+languageCode        = 'nb'
+title               = "Sindre Kjelsrud"
+theme               = 'cocoa'
+author              = "Sindre Kjelsrud"
+
+[[menu.main]]
+name                   = "Info"
+weight                 = -120
+identifier             = "info"
+url                    = "/info/"
+
+[[menu.main]]
+name                   = "Blogg"
+weight                 = -110
+identifier             = "blogg"
+url                    = "/blogg/"
+
+[[menu.main]]
+name                   = "Timeliste"
+weight                 = -100
+identifier             = "timeliste"
+url                    = "/timeliste/"
+
+[[menu.main]]
+name                   = "CV"
+weight                 = -90
+identifier             = "cv"
+url                    = "/cv/"
+
+[params]
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Sindre Kjelsrud"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Blogg for praksisfaget DAT156."
+email                  = "kjelsrudsindre@gmail.com"
+lang                   = "en"
+selfintro              = "Bloggside for praksisfaget DAT156."
+github                 = "//github.com/sindrekjelsrud"
+linkedin               = "//linkedin.com/in/sindre-kjelsrud-345583218"
+avatar                 = "img/profile.png"
+faviconfile            = "img/favicon.png"
+
+[taxonomies]
+  tag = "tags"
