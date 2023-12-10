@@ -13,3 +13,4 @@ Here is a short table with an oversight over each project with a description:
 | BTSI_nettside  | This was a quick Hugo project made for a new customer that my studentorg, [friByte](https:fribyte.no), had gotten in 2023. It was fun to make, but we went with a WordPress site instead, which I had never tried before. So got some experience with that also! |
 | Praksisblogg | This was a blogsite for a course I took at school. It was a Hugo project, which is unfinished because I had to change to another platform.. |
 | v2-kjelsrud.dev | This was my first ever SSG project. This learned me a ton of stuff, especially Git. Hugo is love <3 |
+| sidskipedia | This was a wikipedia site for my own stuff. Moved this over to my website instead of a subdomain. |
