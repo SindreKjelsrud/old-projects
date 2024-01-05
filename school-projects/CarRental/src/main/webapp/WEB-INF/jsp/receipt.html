@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Kvittering</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li class="nav-li-left"><a href="#">Logg inn</a></li>
+            <li class="nav-li-left"><a href="#">Om oss</a></li>
+        </ul>
+        <ul>
+            <li class="nav-li-right"><a href="#">Hjem</a></li>
+        </ul>
+    </nav>
+
+    <!-- Receipt -->
+    <div class="invoice-box">
+        <table>
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <h3>{NAVN}</h3>
+                            </td>
+
+                            <td>
+                                Kvittering #: 123<br />
+                                Laget: {DATO}<br />
+                                Frist: {DATO}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+                                Utleiested: {LOKASJON}
+                            </td>
+
+                            <td>
+                                {NAVN} <br />
+                                {TLF}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="heading">
+                <td>Betalingsmetode</td>
+
+                <td></td>
+            </tr>
+
+            <tr class="details">
+                <td>Kredittkort</td>
+            </tr>
+
+            <tr class="heading">
+                <td>Bil</td>
+
+                <td>Sum</td>
+            </tr>
+
+            <tr class="item">
+                <td>Bil {BILTYPE, FARGE, ETC}</td>
+                <td>{PRIS}</td>
+            </tr>
+
+            <tr class="total">
+                <td></td>
+
+                <td>Total: {PRIS}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
